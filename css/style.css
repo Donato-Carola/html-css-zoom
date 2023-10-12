@@ -8,11 +8,19 @@ body{
     background-color: black;
 }
 
+main{
+    overflow-y: auto;
+    height: calc(100vh - 70px);
+    padding-top: 50px;
+}
+
 header{
     position: fixed;
     z-index: 2;
     background-color: black;
     width: 100vw;
+    height: 70px;
+    
 }
 
 header>div.nav{
@@ -31,6 +39,9 @@ header span{
     background-color: rgba(128, 128, 128, 0.658);
     margin: 0.5rem 0.25rem;
 }
+
+
+
 
 main>section.row{
     display: flex;
