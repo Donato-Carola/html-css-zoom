@@ -9,9 +9,24 @@ body{
 }
 
 
-.container{
-    width: 90%;
-    margin: 0 auto;
+
+
+header>div.nav{
+    display: flex;
+    justify-content: end;
+
+}
+
+header{
+    height: 70px;
+}
+
+header span{
+    color: white;
+    padding: 0.25rem;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.658);
+    margin: 0.5rem 0.25rem;
 }
 
 main>section.row{
@@ -19,25 +34,32 @@ main>section.row{
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    padding: 5rem 0;
+    padding: 3rem 0;
+     
 }
 
-article.card{
-    width: calc(100% / 7);
-   /* height: 200px;*/
-   padding: 0.25rem;
+/*article.card{
+  width: calc(100% / 7);
    
-}
+   
+   
+   
+   
+}*/
 
 div.imagine{
    /* height: 100%;*/
    position: relative;
+   display: flex;
+   background-repeat: no-repeat;
+   background-size: cover;
  
    
 }
 
 .imagine img{
-    width: 100%;
+    width:100%;
+    margin: 0.5rem 0.25rem;
 }
 
 span.online{
