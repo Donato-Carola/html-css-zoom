@@ -8,18 +8,18 @@ body{
     background-color: black;
 }
 
-
-
+header{
+    position: fixed;
+}
 
 header>div.nav{
     display: flex;
     justify-content: end;
+    
 
 }
 
-header{
-    height: 70px;
-}
+
 
 header span{
     color: white;
@@ -35,6 +35,7 @@ main>section.row{
     align-content: center;
     flex-wrap: wrap;
     padding: 3rem 0;
+    
      
 }
 
