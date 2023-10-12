@@ -4,14 +4,13 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: black;
-}
+
 
 main{
     overflow-y: auto;
     height: calc(100vh - 70px);
     padding-top: 50px;
+    background-color: black;
 }
 
 header{
@@ -90,9 +89,29 @@ div.microfono{
 
 
 
+footer{
+    background-color: rgb(34, 34, 34);
+   
+    
+   
+}
+
+.flex-ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+
+}
 
 
 
+.start-icon,
+.central-icon,
+.end-icon{
+    font-size: 50px;
+    padding: 0.25rem 0;
+}
 
 
 
